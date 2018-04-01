@@ -17,7 +17,7 @@ function deepestChild() {
   //return document.querySelector('#grand-node div div div div');
   let node = document.querySelector('#grand-node')
   let nextNode = node.children[0];
-  while (nextNode == true) {
+  while (nextNode) {
     node = nextNode;
     nextNode = node.children[0];
   }
