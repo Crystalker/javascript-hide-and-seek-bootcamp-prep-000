@@ -6,6 +6,6 @@ function nestedTarget() {
   return document.querySelector('#nested .target')
 }
 
-function deepestChild() {
+function increseRankBy(n) {
   
 }
