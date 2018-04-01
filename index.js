@@ -20,5 +20,5 @@ function deepestChild() {
   if (nextNode == true) {
     node = nexNode;
   }
-  return nexNode;
+  return nextNode;
 }
